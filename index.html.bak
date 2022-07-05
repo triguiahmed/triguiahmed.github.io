@@ -219,7 +219,7 @@
               </div>
               <!--   your can insert a profile pic here -->
               <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100">
-                <img class="avatar img-fluid mt-2" src="images/profile.png" width="90%" height="90%" alt="profile picture" />
+                <img class="avatar img-fluid mt-2" src="images/profile.jpg" width="90%" height="90%" alt="profile picture" />
               </div>
             </div>
           </div>
