@@ -23,7 +23,8 @@
         opacity: 1 !important;
         transform: translate(0) scale(1) !important;
       }
-	  
+	  </style>
+	  <style>
 	  .portfolio-item:nth-child(3n+1) {
   clear: both;
 }
@@ -435,7 +436,7 @@
                         <div class="text-muted text-small">STE HORIZON <small>(August 2020)</small>
                         </div>
                       </div>
-                      <img src="images/services/ui-ux.svg" width="48" height="48" alt="web design" />
+                      <img src="images/services/ui-ux.jpg" width="48" height="48" alt="web design" />
                     </div>
                   </div>
                   <div class="card-body px-3 py-2">
