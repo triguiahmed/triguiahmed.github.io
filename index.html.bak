@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ahmed Trigui-Portfolio</title>
-    <link rel="icon" href="images/icon.png">
+    <link rel="icon" href="images/icon.jpg">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print" onload="this.media='all'" />
@@ -228,7 +228,7 @@
         <br>
         <hr>
         <!--
-<div class="section px-3 px-lg-4 pt-5" id="services"><div class="container-narrow"><div class="text-center mb-5"><h2 class="marker marker-center">My Services</h2></div><div class="text-center"><p class="mx-auto mb-3" style="max-width:600px"> I offer services fit for any app. I can quickly maximize timely deliverables for real-time schemas.</p></div><div class="row py-3"><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><img class="mb-2" src="images/services/web-design.svg" width="90" height="90" alt="web design"/><div class="h5">Desktop App </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/services/web.png" width="90" height="90" alt="app development"/><div class="h5">Responsive Web App </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/services/app-development.svg" width="90" height="90" alt="app development"/><div class="h5">Mobile App </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="200"><img class="mb-2" src="images/services/embedded.svg" width="90" height="90" alt="graphic design"/><div class="h5">Embedded Software  </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="300"><img class="mb-2" src="images/services/computer vision.png" width="90" height="90" alt="ui-ux"/><div class="h5">AI-Computer Vision</div></div></div></div></div><br><br><br><br><br><br><hr>
+<div class="section px-3 px-lg-4 pt-5" id="services"><div class="container-narrow"><div class="text-center mb-5"><h2 class="marker marker-center">My Services</h2></div><div class="text-center"><p class="mx-auto mb-3" style="max-width:600px"> I offer services fit for any app. I can quickly maximize timely deliverables for real-time schemas.</p></div><div class="row py-3"><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><img class="mb-2" src="images/services/web-design.svg" width="90" height="90" alt="web design"/><div class="h5">Desktop App </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/services/web.jpg" width="90" height="90" alt="app development"/><div class="h5">Responsive Web App </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/services/app-development.svg" width="90" height="90" alt="app development"/><div class="h5">Mobile App </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="200"><img class="mb-2" src="images/services/embedded.svg" width="90" height="90" alt="graphic design"/><div class="h5">Embedded Software  </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="300"><img class="mb-2" src="images/services/computer vision.jpg" width="90" height="90" alt="ui-ux"/><div class="h5">AI-Computer Vision</div></div></div></div></div><br><br><br><br><br><br><hr>
  -->
         <div class="section px-3 px-lg-4 pt-5" id="skills">
           <div class="container-narrow">
@@ -384,7 +384,7 @@
                         <div class="text-muted text-small">868 Solutions & Consulting <small>(from Febraury to June 2022)</small>
                         </div>
                       </div>
-                      <img src="images/services/computer vision.png" width="48" height="48" alt="ui-ux" />
+                      <img src="images/services/computer vision.jpg" width="48" height="48" alt="ui-ux" />
                     </div>
                   </div>
                   <div class="card-body px-3 py-2">
@@ -472,7 +472,7 @@
               <div class="grid-item ">
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="jo-C-IR1GaM">
-                    <img src="images/projects/facemask.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                    <img src="images/projects/facemask.jpg" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
                   </div>
                   <figcaption>
                     <u>
@@ -485,7 +485,7 @@
               <div class="grid-item ">
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="0M-kxuWdjyw">
-                    <img src="images/projects/heatmap.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                    <img src="images/projects/heatmap.jpg" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
                   </div>
                   <figcaption>
                     <u>
@@ -498,7 +498,7 @@
               <div class="grid-item ">
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="">
-                    <img src="images/projects/Platform.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                    <img src="images/projects/Platform.jpg" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
                   </div>
                   <figcaption>
                     <u>
@@ -511,7 +511,7 @@
               <div class="grid-item ">
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="">
-                    <img src="images/projects/handgestures.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                    <img src="images/projects/handgestures.jpg" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
                   </div>
                   <figcaption>
                     <u>
@@ -524,7 +524,7 @@
               <div class="grid-item ">
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="dy-F83O-YU8">
-                    <img src="images/projects/medical.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                    <img src="images/projects/medical.jpg" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
                   </div>
                   <figcaption>
                     <u>
@@ -536,7 +536,7 @@
               <div class="grid-item ">
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="BhVJejipdIA">
-                    <img src="images/projects/emailmarketing.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                    <img src="images/projects/emailmarketing.jpg" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
                   </div>
                   <figcaption>
                     <u>
@@ -549,7 +549,7 @@
               <div class="grid-item ">
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="Iym5UUYKFCo">
-                    <img src="images/projects/library.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                    <img src="images/projects/library.jpg" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
                   </div>
                   <figcaption>
                     <u>
@@ -562,7 +562,7 @@
               <div class="grid-item ">
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="P8K0cUrsoFM">
-                    <img src="images/projects/snake.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                    <img src="images/projects/snake.jpg" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
                   </div>
                   <figcaption>
                     <u>
