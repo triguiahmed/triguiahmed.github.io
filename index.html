@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<!-- upto 2 directory depth-->
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ahmed Trigui-Portfolio</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" />
+    </noscript>
+    <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/aos.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/main.css?ver=1.2.0" rel="stylesheet">
+    <style>
+      [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+      }
+	  
+	  .portfolio-item:nth-child(3n+1) {
+  clear: both;
+}
+	  .progress-bar{
+		background:#5593da;
+		border-color:#5593da;
+		
+		}
+		.btn-primary{
+		background:#5593da;
+		border-color:#5593da;
+		
+		}
+		.btn-primary:hover{
+		background:#4482da;
+		border-color:#4482da;
+		
+		}
+      .grid {
+	 
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-button: 0%;
+        margin-top: 0%;
+      }
+
+      .portfolio-item {
+        width: 98%;
+        height: 98%;
+      }
+
+      .grid-item {
+
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-button: 0%;
+        margin-top: 0%;
+      }
+
+      .youtube-player.pristine::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -25px;
+        margin-left: -25px;
+        height: 0;
+        width: 0;
+        border-left: 50px solid #5593da;
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        transition: opacity .2s ease;
+      }
+
+      .youtube-player.pristine:hover::before {
+        transition-delay: 0.2s;
+        opacity: .7;
+      }
+    </style>
+    <script>
+      window.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+      }, false);
+    </script>
+  </head>
+  <body id="top">
+    <header class="bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
+        <div class="container">
+          <a class="link-dark navbar-brand site-title mb-0" href="#">Welcome . . . </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#certifications">Certifications </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experiences </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Projects </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pdf/AhmedTrigui_Resume_EN.pdf">
+                  <u>
+                    <strong>Resume</strong>
+                  </u>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="page-content">
+      <div id="content">
+        <header>
+          <div class="cover bg-light">
+            <div class="container px-3">
+              <div class="row">
+                <div class="col-lg-6 p-2">
+                  <img class="img-fluid" src="images/illustrations/hello3.svg" alt="hello" />
+                </div>
+                <div class="col-lg-6">
+                  <div class="mt-5">
+                    <p class="lead text-uppercase mb-1">Hello!</p>
+                    <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I am Ahmed Trigui</h1>
+                    <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Software Developer and Computer Vision Consultant </p>
+                    <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
+                      <nav role="navigation">
+                        <ul class="nav justify-content-left">
+                          <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/trigui.ahmed001/" title="Facebook">
+                              <i class="fab fa-facebook"></i>
+                              <span class="menu-title sr-only">Facebook</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/in/ahmed-trigui/" title="LinkedIn">
+                              <i class="fab fa-linkedin"></i>
+                              <span class="menu-title sr-only">LinkedIn</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <div class="mt-3" data-aos="fade-up" data-aos-delay="200">
+                      <a class="btn btn-primary shadow-sm mt-1 hover-effect" href="#contact">Get In Touch <i class="fas fa-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wave-bg"></div>
+        </header>
+        <br>
+        <br>
+        <hr>
+        <div class="section pt-4 px-3 px-lg-4" id="about">
+          <div class="container-narrow">
+            <div class="text-center mb-5">
+              <h2 class="marker marker-center">About</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="h4 my-2">Hello! I’m Ahmed Trigui.</h2>
+                <p>I am a 21 years old passionate guy. I am a skilled software developer and computer vision consultant, a quick learner and a team worker that gets the job done. I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>
+                <div class="row mt-3">
+                  <div class="col-sm-2">
+                    <div class="pb-1">Age:</div>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="pb-1 fw-bolder">21</div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="pb-1">Email:</div>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="pb-1 fw-bolder">ahmed.trigui12@gmail.com</div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="pb-1">Phone:</div>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="pb-1 fw-bolder">+216 21 709 769 </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="pb-1">Address:</div>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="pb-1 fw-bolder">Sfax, Tunisia </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="pb-1">Status:</div>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="pb-1 fw-bolder">Available</div>
+                  </div>
+                </div>
+              </div>
+              <!--   your can insert a profile pic here -->
+              <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100">
+                <img class="avatar img-fluid mt-2" src="images/profile.png" width="90%" height="90%" alt="profile picture" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <!--
+<div class="section px-3 px-lg-4 pt-5" id="services"><div class="container-narrow"><div class="text-center mb-5"><h2 class="marker marker-center">My Services</h2></div><div class="text-center"><p class="mx-auto mb-3" style="max-width:600px"> I offer services fit for any app. I can quickly maximize timely deliverables for real-time schemas.</p></div><div class="row py-3"><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><img class="mb-2" src="images/services/web-design.svg" width="90" height="90" alt="web design"/><div class="h5">Desktop App </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/services/web.png" width="90" height="90" alt="app development"/><div class="h5">Responsive Web App </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/services/app-development.svg" width="90" height="90" alt="app development"/><div class="h5">Mobile App </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="200"><img class="mb-2" src="images/services/embedded.svg" width="90" height="90" alt="graphic design"/><div class="h5">Embedded Software  </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="300"><img class="mb-2" src="images/services/computer vision.png" width="90" height="90" alt="ui-ux"/><div class="h5">AI-Computer Vision</div></div></div></div></div><br><br><br><br><br><br><hr>
+ -->
+        <div class="section px-3 px-lg-4 pt-5" id="skills">
+          <div class="container-narrow">
+            <div class="text-center mb-5">
+              <h2 class="marker marker-center">My Skills</h2>
+            </div>
+            <div class="text-center">
+              <p class="mx-auto mb-3" style="max-width:600px">I am a quick learner and specialize in multitude of skills required for Application Development and Product Design</p>
+            </div>
+            <div class="bg-light p-3">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="py-1">
+                    <div class="d-flex text-small fw-bolder">
+                      <span class="me-auto">Desktop: AWT-Swing-JavaFx + FXML</span>
+                      <span>95%</span>
+                    </div>
+                    <div class="progress my-1">
+                      <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="py-1">
+                      <div class="d-flex text-small fw-bolder">
+                        <span class="me-auto">Web: HTML5-CSS3-Bootstrap-JS-JQuery-Flask-PHP</span>
+                        <span>90%</span>
+                      </div>
+                      <div class="progress my-1">
+                        <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="py-1">
+                      <div class="d-flex text-small fw-bolder">
+                        <span class="me-auto">Android: Java+XML</span>
+                        <span>75%</span>
+                      </div>
+                      <div class="progress my-1">
+                        <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="py-1">
+                    <div class="d-flex text-small fw-bolder">
+                      <span class="me-auto">DataBase: MySQL-SQLite</span>
+                      <span>95%</span>
+                    </div>
+                    <div class="progress my-1">
+                      <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5 offset-md-2">
+                  <div class="py-1">
+                    <div class="py-1">
+                      <div class="d-flex text-small fw-bolder">
+                        <span class="me-auto">Embedded: Labview-VHDL-Assembly-C++ </span>
+                        <span>80%</span>
+                      </div>
+                      <div class="progress my-1">
+                        <div class="progress-bar " role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="d-flex text-small fw-bolder">
+                      <span class="me-auto">AI-Computer Vison: MediaPipe-Pytorch </span>
+                      <span>90%</span>
+                    </div>
+                    <div class="progress my-1">
+                      <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="py-1">
+                    <div class="d-flex text-small fw-bolder">
+                      <span class="me-auto">MCUs: Arduino-Raspberry-STM32-PIC </span>
+                      <span>80%</span>
+                    </div>
+                    <div class="progress my-1">
+                      <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="py-1">
+                    <div class="d-flex text-small fw-bolder">
+                      <span class="me-auto">OS Administration: Ubuntu-Manjaro-Windows</span>
+                      <span>80%</span>
+                    </div>
+                    <div class="progress my-1">
+                      <div class="progress-bar" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <!-- Certifications-->
+        <div class="section px-2 px-lg-4 pt-5" id="certifications">
+          <div class="container">
+            <div class="text-center mb-5">
+              <h2 class="marker marker-center">Certifications </h2>
+            </div>
+            <div class="grid bp-gallery pb-3" data-aos="zoom-in-up" data-aos-delay="100">
+              <!-- java -->
+              <div class="grid-item">
+                <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
+                  <figure class="portfolio-item">
+                    <img src="images/certif/java.jpg" data-bp="images/certif/java.jpg">
+                    <figcaption>
+                      <h4 class="h5 mb-0"> MTA: Java (2021)</h4>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <!-- python -->
+              <div class="grid-item">
+                <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
+                  <figure class="portfolio-item">
+                    <img src="images/certif/python.jpg" data-bp="images/certif/python.jpg">
+                    <figcaption>
+                      <h4 class="h5 mb-0"> MTA: Python (2020)</h4>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <!-- js -->
+              <div class="grid-item">
+                <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
+                  <figure class="portfolio-item">
+                    <img src="images/certif/javascript.jpg" data-bp="images/certif/javascript.jpg">
+                    <figcaption>
+                      <h4 class="h5 mb-0">MTA: JS (2020)</h4>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div class="section px-3 px-lg-4 pt-5" id="experience">
+          <div class="container-narrow">
+            <div class="text-center mb-5">
+              <h2 class="marker marker-center">Experiences</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card mb-3" data-aos="fade-left" data-aos-delay="100">
+                  <div class="card-header px-3 py-2">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h3 class="h5 mb-1">Computer Vision and Web Developer </h3>
+                        <div class="text-muted text-small">868 Solutions & Consulting <small>(from Febraury to June 2022)</small>
+                        </div>
+                      </div>
+                      <img src="images/services/computer vision.png" width="48" height="48" alt="ui-ux" />
+                    </div>
+                  </div>
+                  <div class="card-body px-3 py-2">
+                    <p>I had a 4 months internship 868 solutions company. I developed a platform for face mask surveillance and analytics of demographics and footfall with computer vision. This platfrom is based on a responsive website</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+                  <div class="card-header px-3 py-2">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h3 class="h5 mb-1">Desktop Application Developer </h3>
+                        <div class="text-muted text-small">OACA <small>(August 2021)</small>
+                        </div>
+                      </div>
+                      <img src="images/services/full-stack.svg" width="48" height="48" alt="ui-ux" />
+                    </div>
+                  </div>
+                  <div class="card-body px-3 py-2">
+                    <p>I had an internship at the civil aviation and airport office Departement (OACA) in Sfax-Thyna airport. I developed a desktop application using JavaFx framework and SQLite database management system.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card mb-3" data-aos="fade-left" data-aos-delay="200">
+                  <div class="card-header px-3 py-2">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h3 class="h5 mb-1"> Transcription Moderator</h3>
+                        <div class="text-muted text-small">DataNomad <small>(June-July 2021)</small>
+                        </div>
+                      </div>
+                      <img src="images/services/web-design.svg" width="48" height="48" alt="web design" />
+                    </div>
+                  </div>
+                  <div class="card-body px-3 py-2">
+                    <p>I had 2 months experience with DataNomad which is an international company based in China and Pakistan specializing in online French Transcription for a machine learning project.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card mb-3" data-aos="fade-right" data-aos-delay="200">
+                  <div class="card-header px-3 py-2">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h3 class="h5 mb-1">Graphic Designer</h3>
+                        <div class="text-muted text-small">STE HORIZON <small>(August 2020)</small>
+                        </div>
+                      </div>
+                      <img src="images/services/ui-ux.svg" width="48" height="48" alt="web design" />
+                    </div>
+                  </div>
+                  <div class="card-body px-3 py-2">
+                    <p>I had an internship at STE Horizon specializing in urban communication. I learned graphic design using Adobe Photoshop and a little bit of Adobe illustrator.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div class="section px-2 px-lg-4 pt-5" id="portfolio">
+          <div class="container">
+            <div class="text-center mb-5">
+              <h2 class="marker marker-center">Projects </h2>
+            </div>
+            <div class="grid bp-gallery pb-1 " data-aos="zoom-in-up" data-aos-delay="100">
+              <!-- Demographic -->
+              <div class="grid-item ">
+                <figure class="portfolio-item">
+                  <div class="youtube-player pristine mb-3" data-video-id="QF8qEe9wLCQ">
+                    <img src="images/projects/demographic.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                  </div>
+                  <figcaption>
+                    <u>
+                      <h4 class="h4 mb-0 mt-0">Demographic Analysis</h4>
+                    </u>
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- Facemask -->
+              <div class="grid-item ">
+                <figure class="portfolio-item">
+                  <div class="youtube-player pristine mb-3" data-video-id="jo-C-IR1GaM">
+                    <img src="images/projects/facemask.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                  </div>
+                  <figcaption>
+                    <u>
+                      <h4 class="h4 mb-0 mt-0">Face Mask Surveillant</h4>
+                    </u>
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- Heatmap -->
+              <div class="grid-item ">
+                <figure class="portfolio-item">
+                  <div class="youtube-player pristine mb-3" data-video-id="0M-kxuWdjyw">
+                    <img src="images/projects/heatmap.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                  </div>
+                  <figcaption>
+                    <u>
+                      <h4 class="h4 mb-0 mt-0">Motion HeatMap Generator</h4>
+                    </u>
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- AI Video Surveillance Analytics Platform -->
+              <div class="grid-item ">
+                <figure class="portfolio-item">
+                  <div class="youtube-player pristine mb-3" data-video-id="">
+                    <img src="images/projects/Platform.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                  </div>
+                  <figcaption>
+                    <u>
+                      <h4 class="h4 mb-0 mt-0">Web based Platform</h4>
+                    </u>
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- Hand Gestures Controller -->
+              <div class="grid-item ">
+                <figure class="portfolio-item">
+                  <div class="youtube-player pristine mb-3" data-video-id="">
+                    <img src="images/projects/handgestures.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                  </div>
+                  <figcaption>
+                    <u>
+                      <h4 class="h4 mb-0 mt-0">Hand Gestures Controller</h4>
+                    </u>
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- medical stock management system -->
+              <div class="grid-item ">
+                <figure class="portfolio-item">
+                  <div class="youtube-player pristine mb-3" data-video-id="dy-F83O-YU8">
+                    <img src="images/projects/medical.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                  </div>
+                  <figcaption>
+                    <u>
+                      <h4 class="h4 mb-0 mt-0">Medical Inventory Software</h4>
+                    </u>
+                </figure>
+              </div>
+              <!-- Email Marketing Software -->
+              <div class="grid-item ">
+                <figure class="portfolio-item">
+                  <div class="youtube-player pristine mb-3" data-video-id="BhVJejipdIA">
+                    <img src="images/projects/emailmarketing.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                  </div>
+                  <figcaption>
+                    <u>
+                      <h4 class="h4 mb-0 mt-0">Email Marketing Software</h4>
+                    </u>
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- Library stock management systemm -->
+              <div class="grid-item ">
+                <figure class="portfolio-item">
+                  <div class="youtube-player pristine mb-3" data-video-id="Iym5UUYKFCo">
+                    <img src="images/projects/library.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                  </div>
+                  <figcaption>
+                    <u>
+                      <h4 class="h4 mb-0 mt-0">Library Management Software</h4>
+                    </u>
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- Snake Kenzia Game -->
+              <div class="grid-item ">
+                <figure class="portfolio-item">
+                  <div class="youtube-player pristine mb-3" data-video-id="P8K0cUrsoFM">
+                    <img src="images/projects/snake.png" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                  </div>
+                  <figcaption>
+                    <u>
+                      <h4 class="h4 mb-0 mt-0">Snake Game</h4>
+                    </u>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div class="section px-2 px-lg-4 pb-4 pt-5 mb-5" id="contact">
+          <div class="container-narrow">
+            <div class="text-center mb-5">
+              <h2 class="marker marker-center">Contact Me</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="bg-light my-2 p-3 pt-2">
+                  <form action="https://formspree.io/f/meqvdkjk" method="POST">
+                    <div class="form-group my-2">
+                      <label for="name" class="form-label fw-bolder">Name</label>
+                      <input class="form-control" type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group my-2">
+                      <label for="email" class="form-label fw-bolder">Email</label>
+                      <input class="form-control" type="email" id="email" name="_replyto" required>
+                    </div>
+                    <div class="form-group my-2">
+                      <label for="message" class="form-label fw-bolder">Message</label>
+                      <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button class="btn btn-primary mt-2" type="submit">Send</button>
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+                <div class="mt-3 px-1">
+                  <div class="h5">Let’s talk how I can help you!</div>
+                  <p>If you like my work and want to avail my services then drop me a message using the contact form. </p>
+                  <p>Or get in touch using my email or my contact number.</p>
+                  <p>See you!</p>
+                </div>
+                <div class="mt-53 px-1">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <div class="pb-1">Email:</div>
+                    </div>
+                    <div class="col-sm-10">
+                      <div class="pb-1 fw-bolder"> ahmed.trigui12@gmail.com </iv>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="pb-1">Phone:</div>
+                    </div>
+                    <div class="col-sm-10">
+                      <div class="pb-1 fw-bolder">+216 21 709 769 </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="pt-4 pb-4 text-center bg-light">
+            <div class="container">
+              <div class="my-3">
+                <div class="h4">Ahmed Trigui </div>
+                <p>Software Developer and Computer Vision Consultant</p>
+                <div class="social-nav">
+                  <nav role="navigation">
+                    <ul class="nav justify-content-center">
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/trigui.ahmed001/" title="Facebook">
+                          <i class="fab fa-facebook"></i>
+                          <span class="menu-title sr-only">Facebook</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/ahmed-trigui/" title="LinkedIn">
+                          <i class="fab fa-linkedin"></i>
+                          <span class="menu-title sr-only">LinkedIn</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="text-small text-secondary">
+                  <div class="mb-1">&copy; Ahmed Trigui. All rights reserved.</div>
+                </div>
+          </footer>
+        </div>
+      </div>
+      <div id="scrolltop">
+        <a class="btn btn-secondary" href="#top">
+          <span class="icon">
+            <i class="fas fa-angle-up fa-x"></i>
+          </span>
+        </a>
+      </div>
+      <script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
+      <script src="./scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
+      <script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>
+      <script src="./scripts/purecounter.min.js?ver=1.2.0"></script>
+      <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+      <script src="./scripts/aos.min.js?ver=1.2.0"></script>
+      <script src="./scripts/main.js?ver=1.2.0"></script>
+  </body>
+</html>
+<script>
+    var players = document.querySelectorAll('.youtube-player')
+
+
+  var loadPlayer = function(event) {
+  	  p = this.parentElement;
+		   	      caption = p.querySelector('figcaption');
+			caption.remove();
+    var target = event.currentTarget
+    var iframe = document.createElement('iframe')
+    iframe.height = target.clientHeight
+    iframe.width = target.clientWidth
+    iframe.src = 'https://www.youtube.com/embed/' + target.dataset.videoId + '?autoplay=1&vq=hd720&modestbranding=1&autohide=1&showinfo=0&controls=0'
+    iframe.setAttribute('frameborder', 0)
+    iframe.setAttribute('allowfullscreen', 0)
+    iframe.setAttribute('allow', "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
+    iframe.setAttribute('style', "border-radius: 8px; overflow: hidden;")
+
+		 
+    target.classList.remove('pristine')
+    if (target.children.length) {
+      target.replaceChild(iframe, target.firstElementChild)
+    } else {
+      target.appendChild(iframe)
+    }
+  }
+  var config = {
+    once: true
+  }
+  Array.from(players).forEach(function(player) {
+    player.addEventListener('click', loadPlayer, config)
+  })
+</script>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u = "https://triguiahmed.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d = document,
+      g = d.createElement('script'),
+      s = d.getElementsByTagName('script')[0];
+    g.async = true;
+    g.src = '//cdn.matomo.cloud/triguiahmed.matomo.cloud/matomo.js';
+    s.parentNode.insertBefore(g, s);
+  })();
+</script>
+<!-- End Matomo Code -->
