@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ahmed Trigui-Portfolio</title>
     <link rel="icon" href="images/icon.jpg">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print" onload="this.media='all'" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print" onload="this.media='all'"/>
     <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
     </noscript>
     <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
     <link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
@@ -85,11 +85,7 @@
         opacity: .7;
       }
     </style>
-    <script>
-      window.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
-      }, false);
-    </script>
+  
   </head>
   <body id="top">
     <header class="bg-light">
@@ -675,6 +671,8 @@
       <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
       <script src="./scripts/aos.min.js?ver=1.2.0"></script>
       <script src="./scripts/main.js?ver=1.2.0"></script>
+	  <script src="./scripts/limitations.js"></script>
+
   </body>
   
   
