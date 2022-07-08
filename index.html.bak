@@ -230,8 +230,7 @@
 			        <br>
         <br>
 		    <br>        <br>
-        <br>
-		    <br>
+
 
         <hr>
 		
@@ -454,6 +453,7 @@
             </div>
           </div>
         </div>
+	
         <br>
         <br>
         <hr>
@@ -505,12 +505,12 @@
               <!-- AI Video Surveillance Analytics Platform -->
               <div class="grid-item ">
                 <figure class="portfolio-item">
-                  <div class="youtube-player pristine mb-3" data-video-id="">
+                  <div class="youtube-player pristine mb-3" data-video-id="dXAE1T7LJ4k">
                     <img src="images/projects/Platform.jpg" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
                   </div>
                   <figcaption>
                     <u>
-                      <h4 class="h4 mb-0 mt-0">Web based Platform</h4>
+                      <h4 class="h4 mb-0 mt-0">Surveillance Analytics Platform</h4>
                     </u>
                   </figcaption>
                 </figure>
