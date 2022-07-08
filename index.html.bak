@@ -294,7 +294,7 @@
                       </div>
                     </div>
                     <div class="d-flex text-small fw-bolder">
-                      <span class="me-auto">AI-Computer Vison: MediaPipe-Pytorch </span>
+                      <span class="me-auto">AI-Computer Vison: OpenCV-MediaPipe-YOLOv5-Pytorch </span>
                       <span>90%</span>
                     </div>
                     <div class="progress my-1">
