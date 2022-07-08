@@ -26,9 +26,7 @@
 	  </style>
 	  </noscript>
 	  <style>
-	  .portfolio-item:nth-child(3n+1) {
-  clear: both;
-}
+
 	  .progress-bar{
 		background:#5593da;
 		border-color:#5593da;
@@ -465,6 +463,7 @@
             <div class="grid bp-gallery pb-1 " data-aos="zoom-in-up" data-aos-delay="100">
               <!-- Demographic -->
               <div class="grid-item ">
+			  
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="QF8qEe9wLCQ">
                     <img src="images/projects/demographic.jpg" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
@@ -510,7 +509,7 @@
                   </div>
                   <figcaption>
                     <u>
-                      <h4 class="h4 mb-0 mt-0">Surveillance Analytics Platform</h4>
+                      <h4 class="h4 mb-0 mt-0">AI Web Platform</h4>
                     </u>
                   </figcaption>
                 </figure>
@@ -697,11 +696,12 @@
 			caption.remove();
     var target = event.currentTarget
     var iframe = document.createElement('iframe')
-    iframe.height = target.clientHeight
+    iframe.height = target.clientHeight-8
     iframe.width = target.clientWidth
     iframe.src = 'https://www.youtube.com/embed/' + target.dataset.videoId + '?autoplay=1&vq=hd720&modestbranding=1&autohide=1&showinfo=0&controls=0'
     iframe.setAttribute('frameborder', 0)
     iframe.setAttribute('allowfullscreen', 0)
+
     iframe.setAttribute('allow', "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
     iframe.setAttribute('style', "border-radius: 8px; overflow: hidden;")
 
