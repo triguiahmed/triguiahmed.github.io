@@ -459,7 +459,7 @@
             <div class="text-center mb-5">
               <h2 class="marker marker-center">Projects </h2>
             </div>
-            <div class="grid bp-gallery pb-1 " data-aos="zoom-in-up" data-aos-delay="100">
+            <div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="100">
               <!-- Demographic -->
               <div class="grid-item ">
                 <figure class="portfolio-item">
@@ -488,6 +488,7 @@
               </div>
               <!-- Heatmap -->
               <div class="grid-item ">
+			  
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="0M-kxuWdjyw">
                     <img src="images/projects/heatmap.jpg" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
@@ -499,7 +500,10 @@
                   </figcaption>
                 </figure>
               </div>
-              <!-- AI Video Surveillance Analytics Platform -->
+              </div>
+			              <div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="100">
+
+			  <!-- AI Video Surveillance Analytics Platform -->
               <div class="grid-item ">
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="dXAE1T7LJ4k">
@@ -539,7 +543,10 @@
 
                 </figure>
               </div>
-              <!-- Email Marketing Software -->
+              </div>
+			              <div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="100">
+
+			  <!-- Email Marketing Software -->
               <div class="grid-item ">
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="BhVJejipdIA">
