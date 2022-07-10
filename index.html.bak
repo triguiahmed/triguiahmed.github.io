@@ -42,14 +42,7 @@
 		border-color:#4482da;
 		
 		}
-      .grid {
-	 
-        margin-left: 0%;
-        margin-right: 0%;
-        margin-button: 0%;
-        margin-top: 0%;
-      }
-
+    
       .portfolio-item {
         width: 100%;
         height: 100%;
@@ -338,7 +331,7 @@
               <div class="grid-item">
                 <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
                   <figure class="portfolio-item">
-                    <img class="mb-3" src="images/certif/java.jpg" data-bp="images/certif/java.jpg">
+                    <img class="mb-3" src="images/certif/java.png" data-bp="images/certif/java.jpg" style="border-radius: 8px; overflow: hidden;">
                     <figcaption>
                       <h4 class="h5 mb-0"> MTA: Java (2021)</h4>
                     </figcaption>
@@ -349,7 +342,7 @@
               <div class="grid-item">
                 <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
                   <figure class="portfolio-item">
-                    <img class="mb-3" src="images/certif/python.jpg" data-bp="images/certif/python.jpg">
+                    <img class="mb-3" src="images/certif/python.jpg" data-bp="images/certif/python.jpg" style="border-radius: 8px; overflow: hidden;">
                     <figcaption>
                       <h4 class="h5 mb-0"> MTA: Python (2020)</h4>
                     </figcaption>
@@ -360,7 +353,7 @@
               <div class="grid-item">
                 <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
                   <figure class="portfolio-item">
-                    <img class="mb-3" src="images/certif/javascript.jpg" data-bp="images/certif/javascript.jpg">
+                    <img class="mb-3" src="images/certif/javascript.jpg" data-bp="images/certif/javascript.jpg" style="border-radius: 8px; overflow: hidden;">
                     <figcaption>
                       <h4 class="h5 mb-0">MTA: JS (2020)</h4>
                     </figcaption>
@@ -711,7 +704,7 @@
     iframe.height = target.clientHeight
     iframe.width = target.clientWidth
 
-    iframe.src = 'https://www.youtube.com/embed/' + target.dataset.videoId + '?autoplay=1&vq=hd720&modestbranding=1&autohide=1&showinfo=0&controls=0'
+    iframe.src = 'https://www.youtube.com/embed/' + target.dataset.videoId + '?autoplay=1&vq=hd1080&modestbranding=1&autohide=1&showinfo=0&controls=0'
     iframe.setAttribute('frameborder', 0)
     iframe.setAttribute('allowfullscreen', 0)
 
