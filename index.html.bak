@@ -331,7 +331,7 @@
               <div class="grid-item">
                 <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
                   <figure class="portfolio-item">
-                    <img class="mb-3" src="images/certif/java.png" data-bp="images/certif/java.jpg" style="border-radius: 8px; overflow: hidden;">
+                    <img class="mb-3" src="images/certif/java.jpg" data-bp="images/certif/java.jpg" style="border-radius: 8px; overflow: hidden;">
                     <figcaption>
                       <h4 class="h5 mb-0"> MTA: Java (2021)</h4>
                     </figcaption>
