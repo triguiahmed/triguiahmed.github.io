@@ -106,7 +106,7 @@
                 <a class="nav-link" href="#contact">Contact </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pdf/AhmedTrigui_Resume_EN.pdf">
+                <a class="nav-link" href="pdf/AhmedTrigui_Resume.pdf">
                   <u>
                     <strong>Resume</strong>
                   </u>
@@ -385,8 +385,9 @@
                     </div>
                   </div>
                   <div class="card-body px-3 py-2">
-                    <p>I had a 4 months internship 868 solutions company. I developed a platform for face mask surveillance and analytics of demographics and footfall with computer vision. This platfrom is based on a responsive website</p>
-                  </div>
+                    <p>Developement of an AI Video Surveillance Analytics Platform:</p><p>
+• Real-time face mask surveillance and demographic analytics using tracking by detection state of art and a motion heatmap generator using image processing.</p><p>
+• Responsive website with client and admin dashboard using Bootstrap frontend, Flask and Jinja for the backend and SQLite database.</p> </div>
                 </div>
               </div>
               <div class="col-md-6">
@@ -402,7 +403,9 @@
                     </div>
                   </div>
                   <div class="card-body px-3 py-2">
-                    <p>I had an internship at the civil aviation and airport office Departement (OACA) in Sfax-Thyna airport. I developed a desktop application using JavaFx framework and SQLite database management system.</p>
+                    <p>Developement of a Desktop application :</p><p>
+					•Medical stock management with JavaFx framework, FXML and SQLite.</p><p>
+• Real-time Alert system for expired and hors stock drugs.</p>
                   </div>
                 </div>
               </div>
@@ -411,7 +414,7 @@
                   <div class="card-header px-3 py-2">
                     <div class="d-flex justify-content-between">
                       <div>
-                        <h3 class="h5 mb-1"> Transcription Moderator</h3>
+                        <h3 class="h5 mb-1">  Moderator - Quality Agent</h3>
                         <div class="text-muted text-small">DataNomad <small>(June-July 2021)</small>
                         </div>
                       </div>
@@ -419,7 +422,9 @@
                     </div>
                   </div>
                   <div class="card-body px-3 py-2">
-                    <p>I had 2 months experience with DataNomad which is an international company based in China and Pakistan specializing in online French Transcription for a machine learning project.</p>
+                    <p>• Data labeling for French speech recognition task.</p><p>
+• Test and Validation.
+</p>
                   </div>
                 </div>
               </div>
@@ -436,7 +441,9 @@
                     </div>
                   </div>
                   <div class="card-body px-3 py-2">
-                    <p>I had an internship at STE Horizon specializing in urban communication. I learned graphic design using Adobe Photoshop and a little bit of Adobe illustrator.</p>
+                    <p>• Urban communication.</p>
+					                    <p>• Ads Desing.</p>
+
                   </div>
                 </div>
               </div>
