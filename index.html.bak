@@ -406,6 +406,8 @@
                     <p>Developement of a Desktop application :</p><p>
 					•Medical stock management with JavaFx framework, FXML and SQLite.</p><p>
 • Real-time Alert system for expired and hors stock drugs.</p>
+<p>
+• Export drugs list in csv format.</p>
                   </div>
                 </div>
               </div>
