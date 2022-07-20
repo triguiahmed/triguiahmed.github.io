@@ -145,7 +145,7 @@
                         </ul>
                       </nav>
                     </div>
-                    <div class="mt-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="mt-3" data-aos="fade-up" data-aos-delay="20">
                       <a class="btn btn-primary shadow-sm mt-1 hover-effect" href="#contact">Get In Touch <i class="fas fa-arrow-right"></i>
                       </a>
                     </div>
@@ -731,5 +731,20 @@
     player.addEventListener('click', loadPlayer, config)
   })
 </script>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://triguiahmedgithub.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='./scripts/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
 
  
