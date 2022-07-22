@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ahmed Trigui-Portfolio</title>
     <link rel="icon" href="images/icon.jpg">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
 
     <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
     <link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
@@ -125,7 +124,7 @@
                 <div class="col-lg-6">
                   <div class="mt-5">
                     <p class="lead text-uppercase mb-1">Hello!</p>
-                    <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="-50">I am Ahmed Trigui</h1>
+                    <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I am Ahmed Trigui</h1>
                     <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="70">Software Developer and Computer Vision Consultant </p>
                     <div class="social-nav" data-aos="fade-up" data-aos-delay="90">
                       <nav role="navigation">
