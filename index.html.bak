@@ -771,6 +771,4 @@
     g.async=true; g.src='./scripts/matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<!-- End Matomo Code -->
-<script src="https://platform.linkedin.com/badges/js/profile.js" type="text/javascript" async defer></script>
  
