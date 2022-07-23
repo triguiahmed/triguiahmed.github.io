@@ -87,9 +87,51 @@ function matomo(){
   }
 </script>
 <!-- End Matomo Code -->
+<script>
+function player(){
+    var players = document.querySelectorAll('.youtube-player')
+
+
+  var loadPlayer = function(event) {
+  this.classList.remove("mb-3"); 
+  this.classList.add("mb-0");
+
+
+
+  	  p = this.parentElement;
+		   	      caption = p.querySelector('figcaption');
+			caption.remove();
+    var target = event.currentTarget
+    var iframe = document.createElement('iframe')
+    iframe.height = target.clientHeight
+    iframe.width = target.clientWidth
+
+    iframe.src = 'https://www.youtube.com/embed/' + target.dataset.videoId + '?autoplay=1&vq=hd1080&modestbranding=1&autohide=1&showinfo=0&controls=0'
+    iframe.setAttribute('frameborder', 0)
+    iframe.setAttribute('allowfullscreen', 0)
+
+    iframe.setAttribute('allow', "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
+    iframe.setAttribute('style', "border-radius: 8px; overflow: hidden;")
+
+		 
+    target.classList.remove('pristine')
+    if (target.children.length) {
+      target.replaceChild(iframe, target.firstElementChild)
+    } else {
+      target.appendChild(iframe)
+    }
+  }
+  var config = {
+    once: true
+  }
+  Array.from(players).forEach(function(player) {
+    player.addEventListener('click', loadPlayer, config)
+  })
+  }
+</script>
 
   </head>
-  <body id="top" onloade="matomo()">
+  <body id="top" onloade="matomo();player();">
     <header class="bg-light">
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
         <div class="container">
@@ -726,6 +768,7 @@ function matomo(){
       <script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>
       <script src="./scripts/purecounter.min.js?ver=1.2.0"></script>
       <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+      <script src="./scripts/aos.min.js?ver=1.2.0"></script>
       <script src="./scripts/main.js?ver=1.2.0"></script>
 	  <script src="./scripts/limitations.js"></script>
 
@@ -734,45 +777,5 @@ function matomo(){
   
   
 </html>
-<script>
-    var players = document.querySelectorAll('.youtube-player')
-
-
-  var loadPlayer = function(event) {
-  this.classList.remove("mb-3"); 
-  this.classList.add("mb-0");
-
-
-
-  	  p = this.parentElement;
-		   	      caption = p.querySelector('figcaption');
-			caption.remove();
-    var target = event.currentTarget
-    var iframe = document.createElement('iframe')
-    iframe.height = target.clientHeight
-    iframe.width = target.clientWidth
-
-    iframe.src = 'https://www.youtube.com/embed/' + target.dataset.videoId + '?autoplay=1&vq=hd1080&modestbranding=1&autohide=1&showinfo=0&controls=0'
-    iframe.setAttribute('frameborder', 0)
-    iframe.setAttribute('allowfullscreen', 0)
-
-    iframe.setAttribute('allow', "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
-    iframe.setAttribute('style', "border-radius: 8px; overflow: hidden;")
-
-		 
-    target.classList.remove('pristine')
-    if (target.children.length) {
-      target.replaceChild(iframe, target.firstElementChild)
-    } else {
-      target.appendChild(iframe)
-    }
-  }
-  var config = {
-    once: true
-  }
-  Array.from(players).forEach(function(player) {
-    player.addEventListener('click', loadPlayer, config)
-  })
-</script>
 
  
