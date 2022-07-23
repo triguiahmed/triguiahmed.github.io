@@ -101,7 +101,7 @@
                 <a class="nav-link" href="#contact">Contact </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pdf/AhmedTrigui_Resume.pdf">
+                <a class="nav-link" href="pdf/CV Ahmed Trigui-2022.pdf">
                   <u>
                     <strong>Resume</strong>
                   </u>
@@ -457,7 +457,7 @@
             <div class="text-center mb-5">
               <h2 class="marker marker-center">Projects </h2>
             </div>
-            <div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="100">
+           
               <!-- Demographic -->
               <div class="grid-item ">
                 <figure class="portfolio-item">
@@ -498,8 +498,7 @@
                   </figcaption>
                 </figure>
               </div>
-              </div>
-			              <div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="100">
+   
 
 			  <!-- AI Video Surveillance Analytics Platform -->
               <div class="grid-item ">
@@ -541,8 +540,7 @@
 
                 </figure>
               </div>
-              </div>
-			              <div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="100">
+              
 
 			  <!-- Email Marketing Software -->
               <div class="grid-item ">
@@ -583,10 +581,14 @@
                   </figcaption>
                 </figure>
               </div>
-            </div>
+        
           </div>
         </div>
         <br>
+        <br>
+		 <br>
+        <br>
+		 <br>
         <br>
         <hr>
         <div class="section px-2 px-lg-4 pb-4 pt-5 mb-5" id="contact">
