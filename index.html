@@ -21,7 +21,29 @@
 	  </style>
 	  </noscript>
 	  <style>
+div.hidden
+{
+   display: none
+}
+.loader {
+  border: 6px solid #f3f3f3; /* Light grey */
+  border-top: 6px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
 
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 	  .progress-bar{
 		background:#5593da;
 		border-color:#5593da;
@@ -73,6 +95,8 @@
 
   </head>
   <body id="top">
+<div id="loader" class="loader"></div>
+<div id="extraControls" class="hidden">
     <header class="bg-light">
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
         <div class="container">
@@ -713,7 +737,20 @@
       <script src="./scripts/main.js?ver=1.2.0" defer></script>
 	  <script src="./scripts/limitations.js" defer></script>
 
+</div>
 
+ <script>
+    const div =  document.getElementById('extraControls') ;// Get element from DOM
+        const div1 =  document.getElementById('loader') ;// Get element from DOM
+
+
+Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
+    console.log('images finished loading');
+div.classList.remove('hidden');
+div1.classList.remove('loader');
+
+});
+</script>
   </body>
   
   
@@ -773,4 +810,3 @@
   })();
 </script>
 <!-- End Matomo Code -->
- 
