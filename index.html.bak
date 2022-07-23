@@ -72,7 +72,7 @@
     </style>
 
   </head>
-  <body id="top">
+  <body id="top" onloade="matomo()">
     <header class="bg-light">
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
         <div class="container">
@@ -200,7 +200,13 @@
                   </div>
                 </div>
               </div>
-              
+              <!--   your can insert a profile pic here -->
+              <div class="col-md-5 offset-md-1 mb-1 mt-0" data-aos="fade-left" data-aos-delay="250">
+                <!-- <img class="avatar img-fluid mt-2" src="images/profile.jpg" width="90%" height="90%" alt="profile picture" /> -->
+				<iframe  src="badge.html" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" width="100%" height="300%"  ></iframe>
+                   
+              </div>
+
             </div>
           </div>
         </div>
@@ -754,6 +760,7 @@
 </script>
 <!-- Matomo -->
 <script>
+function matomo(){
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['trackPageView']);
@@ -765,6 +772,7 @@
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.async=true; g.src='./scripts/matomo.js'; s.parentNode.insertBefore(g,s);
   })();
+  }
 </script>
 <!-- End Matomo Code -->
 
