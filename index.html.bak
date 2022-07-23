@@ -8,8 +8,7 @@
     <title>Ahmed Trigui-Portfolio</title>
     <link rel="icon" href="images/icon.jpg">
 
-    <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
+
     <link href="./css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
     <link href="./css/aos.css?ver=1.2.0" rel="stylesheet">
     <link href="./css/main.css?ver=1.2.0" rel="stylesheet">
@@ -327,7 +326,7 @@
               <div class="grid-item">
                 <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
                   <figure class="portfolio-item">
-                    <img class="mb-3" src="images/certif/java.jpg" data-bp="images/certif/java.jpg" style="border-radius: 8px; overflow: hidden;">
+                    <img class="mb-3" src="images/certif/java.jpg" data-bp="https://lh3.googleusercontent.com/Xagd6Ktm_ffhCwBOStoHS9kBSFVCdUp5tM387cyoYDbU7RwxT2YXbgVGntTPp80GgeapBkZhdA_tkBR7HDeY4kBVf07gw3d8Vo-tUjVMM-Hvp4UqYUBBDbqGeN0lIdTUbSLIUk6CPK7yW4SMqS1dgn0XFHgpzIa3om3eOq7r7y7ydOZf6sc86RhJ-bmZccwIdd-jWkdGZ48vKAr2Eo89BBBd9Si3qRLn9iZ8PUPxjZUhW6WA3zNamuF5P4dJou2MvnzLP2xoseX3JyuNHsnTWvw5UF2SbaBAiUXM96U_G3at9EV0m9y_VrZmmu3F-IOY4aDw5EF7Gjwk_JuvG9JAMP0j2MCO02XWBrhvXGGYSSE56xDMGctRY3wSXr44BG1JTtFLfhlnj2EVUzSc4ETSEl3MYjObuGcIXtIno11VQWoqM23DMYEmA8ur-Q-L0KjEn6_QpUdQxfDV0gqVm93jqhweTJS1xQlKkE5T1wx_Q43GIwZJN73bu6dRf2QP4P6Gd-L3N6f6lZCE-A6N1bZI2IHhF60e2g713Re-Y6UQLgWKC59S4nW9c4x4Vc4C3yIbn5yGoxv9b1QCmijfLsIssNfKoD8i2fXDN3VNDuLne33Sue0XQhEykZLrOjf-JP-sU4miyiHbsU8loQKcCSo6YxK1cpNqyY9UeecSjijV1ewwYqm5BC1q1n9cAtjwn49UKLgLoJLUmJBOr45-0oICYlVIbnSpfHhtiIzoe7kQMuNgIxkTZDvCmsnWpqU=w478-h343-no?authuser=0" style="border-radius: 8px; overflow: hidden;">
                     <figcaption>
                       <h4 class="h5 mb-0"> MTA: Java (2021)</h4>
                     </figcaption>
@@ -338,7 +337,7 @@
               <div class="grid-item">
                 <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
                   <figure class="portfolio-item">
-                    <img class="mb-3" src="images/certif/python.jpg" data-bp="images/certif/python.jpg" style="border-radius: 8px; overflow: hidden;">
+                    <img class="mb-3" src="https://lh3.googleusercontent.com/RF-N_7mRCWCWQJvhweBARNqe5nEBKzM4t_OlgYFI2Kwr_yhAl4MUJKXJyhauydnrUiwD35AiIJv8OJnygndtR4gKoEzzPI4p0iEYF6iu6KDuYcVBAXC1B505ZVoeIT9n-cuosOmbYQ8MdcT_8K-w0VyPKLaCyJwq8rWpeN32AOMPCqwdqZgkbPQyGPBQBTm1yOUJZUwnrhjrZJNU7BhgMHmvDhtE42fmvU7m1_a17pOTA_HJh3r0WFwz5dTER8DdQetpMjjBuwhfkEDcWNukc78GbERG3R_oBiSGHAEqMJcn5biFBsWqdqsizsNXJE3MCcsgimOhgWzlYuBBwI7YyfnJTEGM-EPsuw3z1rOBr5aZhaKgUjr3C7xWm_0xhwQkAwuAaXX0OLQlJwYWLj278GMwv0s35k_YOy49VfU4Ar3ZygdSYByMnOkQUKlBTLnT6VIINxMFe9fuoFeh0N-GBoETQghPVlcrnJzQUL6eepLfi_FYm8xBzZLmzE_aG2wzkE-uxLQVjyHQ9fX1GIEC13MMVxBI3gQPaI8CK8e79cskgtBGSjgK7a439mt7MmaLNxyznsKHxlL97tiDqtyOmoFcKgQ2fJ3dG8g0iHoQHxbkqpct-J0hSYxQTWnVhMhGTZy49Jx2j2-JkQgftn218oCQ-Sr677_Mg0jMdIGN0MGeZbFm-bz1QrmvuLqPySOv4UZc5IipO4ZlGmPT-0U0TiaWzCYmqpV_wpsXxOJ9rihAxsHxw8NGspc5ok8=w800-h576-no?authuser=0" data-bp="images/certif/python.jpg" style="border-radius: 8px; overflow: hidden;">
                     <figcaption>
                       <h4 class="h5 mb-0"> MTA: Python (2020)</h4>
                     </figcaption>
@@ -349,7 +348,7 @@
               <div class="grid-item">
                 <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
                   <figure class="portfolio-item">
-                    <img class="mb-3" src="images/certif/javascript.jpg" data-bp="images/certif/javascript.jpg" style="border-radius: 8px; overflow: hidden;">
+                    <img class="mb-3" src="https://lh3.googleusercontent.com/yARNvdsUZT10Cqn4Q03T5VmdehWcYHVEAiuMcSFq4Fdg-9I7YC5w8BWTOUovUUkwngAFq8dFO5FiJvlym_eFRU1GbKv8lmcz8ImRfP-QGeqNbaztja6CVBMwZj459mKp5yIevWfaGhL-aAsbeagigaNsbZXl5-CnHrUVbXVw--PHCLo13MYSAZ0OIw-0z1mKfvFvYg5eF39OreZmSLFZZ6-r1ZtxQdsA939djdjLdPsL-b4JRiPtCYf_nwtqIRLLS3zuv4hJtvgmzWCQcCo1dICPR-WmM4GdR3TMrccX69gPFgnuN9hNoBsGRiVMJUuB_nCIjCLqBsSWsykM1HK_Oep2ZqfDGNn2nz7J0lo88GXGw9q4iQaA9DGuuls4i5zPLF-kg4WLA8DvurZiOEoqVueMNtwOP_QOt_zRyWBSNGkHJIDwhNmuNg_AyaWslBq9sHHD8R9a2ezboHnAEsTXnlPteYbxgXdrZbxk7axHw8xgZbwL8ks0CNGGZgvK8JJYTDZ_g4x5iiSAAzFox9X-2_W4j2O1FEkuH7ItowUutMyb3tuZzQZhPF5F6DscM0PPa1ZTzMWWEy-Uz7oWVmTatjs_KH3SA3c4eZ1qLOjRYIKTH0hwDVLFu506DHNC-uDCty2hv54XZwFkahxqLJ_PTgygsrGmaWlHIibrzMeg556p_yvFCurj-ZkcnEAXbvWxW-G88UzUYzGyZOMyX1u02hJYK1L2_500RfRrYPSx_xfwlMAzIjsco0tHcko=w800-h576-no?authuser=0" data-bp="images/certif/javascript.jpg" style="border-radius: 8px; overflow: hidden;">
                     <figcaption>
                       <h4 class="h5 mb-0">MTA: JS (2020)</h4>
                     </figcaption>
@@ -479,7 +478,7 @@
               <div class="grid-item ">
                 <figure class="portfolio-item">
                   <div class="youtube-player pristine mb-3" data-video-id="QF8qEe9wLCQ">
-                    <img src="images/projects/demographic.jpg" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
+                    <img src="https://lh3.googleusercontent.com/63B35YngVw3J9W0MUFPaSzi6IUSiTaBwwU7WkRHBjjuWkcr-OS9CsFokqRIbkUH3H95qWWYcyl4BcTtohLHJlcgc6uUNHM4MatXtwGjbUZduXbVr9um0Dfen-Sgga6c-GAT-a7ioA9H75eytYEWkMhyoYo7xoRHSVTmNIPfRThP7NAWV_oELo9rln7JBAsscrnPHXDw1kZcEaNEOJaR7xlC2gOVtw8AMI5ULVd-l5VkkoCH7H-4-5vdHOrL0abCHi-hQRBsJ3Dqj3T2wuMqNUtOn7TTJg4sM4ZD0NZD0qe_p65iBeAw03tpMoe86wRiQVbIofhWPJmMnhWlDxZ2BDXnPFADMzcUjUwzdeUC9Wx4aiII2R5zcwrhZpFHybPGl29Av_-X5OTi-v2MxbHWblEoJdh4QzeGMJWzii6Sgj_B8pUkU8vxozqBLSGQ7Q2hwPfKkGCwQi_tnM7K-Gg2lNAa7U3S71aefaQ-e7J5Ewqyo4EA9z7j4m1x9r_NNjvW85djoot3BlFxjvlkkAJeWctbfrXKMaxHRtAYwxyiDXUweHsTCz0C4aaV9GjzOTfMUBPqCUCPNaig222mJ8j39WfnBHEeHp9JDrQ-2KKBWBzXJ1jNgGXpqlCGv14nACLGx20GTHOoIpI880iWddqDKN8O8aRdeiSdaebXcUyU7NLWnL5fn2-78FazaLbU2P0vu0l4Jg7OFlC3FvNHmc3mCxT9sb98xpJ-xTXOmkZvMGQFiDZLAKxuqSxwK35c=w1280-h720-no?authuser=0" width="98%" height="98%" alt="custom-preview" style="border-radius: 8px; overflow: hidden;">
                   </div>
                   <figcaption>
                     <u>
