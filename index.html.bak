@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ahmed Trigui-Portfolio</title>
+    <title>Ahmed TRIGUI - Portfolio</title>
     <link rel="icon" href="images/icon.jpg">
 
     <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
@@ -27,7 +27,7 @@ div.hidden
 }
 .loader {
   border: 6px solid #f3f3f3; /* Light grey */
-  border-top: 6px solid #3498db; /* Blue */
+  border-top: 6px solid #4482da; /* Blue */
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -35,7 +35,7 @@ div.hidden
 
 
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -137,6 +137,7 @@ div.hidden
       </nav>
     </header>
     <div class="page-content">
+	
       <div id="content">
         <header>
           <div class="cover bg-light">
@@ -148,7 +149,7 @@ div.hidden
                 <div class="col-lg-6">
                   <div class="mt-5">
                     <p class="lead text-uppercase mb-1">Hello!</p>
-                    <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I am Ahmed Trigui</h1>
+                    <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I am Ahmed TRIGUI</h1>
                     <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="70">Software Developer and Computer Vision Consultant </p>
                     <div class="social-nav" data-aos="fade-up" data-aos-delay="90">
                       <nav role="navigation">
@@ -189,7 +190,7 @@ div.hidden
             </div>
             <div class="row">
               <div class="col-md-6">
-                <h2 class="h4 my-2">Hello! I’m Ahmed Trigui.</h2>
+                <h2 class="h4 my-2">Hello! I’m Ahmed TRIGUI.</h2>
                 <p>I am a 22 years old passionate guy. I am a skilled software developer and computer vision consultant, a quick learner and a team worker that gets the job done. I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>
                 <div class="row mt-3">
                   <div class="col-sm-2">
@@ -351,7 +352,7 @@ div.hidden
               <div class="grid-item">
                 <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
                   <figure class="portfolio-item">
-                    <img class="mb-3" src="images/certif/java.jpg" data-bp="https://lh3.googleusercontent.com/Xagd6Ktm_ffhCwBOStoHS9kBSFVCdUp5tM387cyoYDbU7RwxT2YXbgVGntTPp80GgeapBkZhdA_tkBR7HDeY4kBVf07gw3d8Vo-tUjVMM-Hvp4UqYUBBDbqGeN0lIdTUbSLIUk6CPK7yW4SMqS1dgn0XFHgpzIa3om3eOq7r7y7ydOZf6sc86RhJ-bmZccwIdd-jWkdGZ48vKAr2Eo89BBBd9Si3qRLn9iZ8PUPxjZUhW6WA3zNamuF5P4dJou2MvnzLP2xoseX3JyuNHsnTWvw5UF2SbaBAiUXM96U_G3at9EV0m9y_VrZmmu3F-IOY4aDw5EF7Gjwk_JuvG9JAMP0j2MCO02XWBrhvXGGYSSE56xDMGctRY3wSXr44BG1JTtFLfhlnj2EVUzSc4ETSEl3MYjObuGcIXtIno11VQWoqM23DMYEmA8ur-Q-L0KjEn6_QpUdQxfDV0gqVm93jqhweTJS1xQlKkE5T1wx_Q43GIwZJN73bu6dRf2QP4P6Gd-L3N6f6lZCE-A6N1bZI2IHhF60e2g713Re-Y6UQLgWKC59S4nW9c4x4Vc4C3yIbn5yGoxv9b1QCmijfLsIssNfKoD8i2fXDN3VNDuLne33Sue0XQhEykZLrOjf-JP-sU4miyiHbsU8loQKcCSo6YxK1cpNqyY9UeecSjijV1ewwYqm5BC1q1n9cAtjwn49UKLgLoJLUmJBOr45-0oICYlVIbnSpfHhtiIzoe7kQMuNgIxkTZDvCmsnWpqU=w478-h343-no?authuser=0" style="border-radius: 8px; overflow: hidden;">
+                    <img class="mb-3" src="images/certif/java.jpg" data-bp="images/certif/java.jpg" style="border-radius: 8px; overflow: hidden;">
                     <figcaption>
                       <h4 class="h5 mb-0"> MTA: Java (2021)</h4>
                     </figcaption>
@@ -362,7 +363,7 @@ div.hidden
               <div class="grid-item">
                 <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
                   <figure class="portfolio-item">
-                    <img class="mb-3" src="https://lh3.googleusercontent.com/RF-N_7mRCWCWQJvhweBARNqe5nEBKzM4t_OlgYFI2Kwr_yhAl4MUJKXJyhauydnrUiwD35AiIJv8OJnygndtR4gKoEzzPI4p0iEYF6iu6KDuYcVBAXC1B505ZVoeIT9n-cuosOmbYQ8MdcT_8K-w0VyPKLaCyJwq8rWpeN32AOMPCqwdqZgkbPQyGPBQBTm1yOUJZUwnrhjrZJNU7BhgMHmvDhtE42fmvU7m1_a17pOTA_HJh3r0WFwz5dTER8DdQetpMjjBuwhfkEDcWNukc78GbERG3R_oBiSGHAEqMJcn5biFBsWqdqsizsNXJE3MCcsgimOhgWzlYuBBwI7YyfnJTEGM-EPsuw3z1rOBr5aZhaKgUjr3C7xWm_0xhwQkAwuAaXX0OLQlJwYWLj278GMwv0s35k_YOy49VfU4Ar3ZygdSYByMnOkQUKlBTLnT6VIINxMFe9fuoFeh0N-GBoETQghPVlcrnJzQUL6eepLfi_FYm8xBzZLmzE_aG2wzkE-uxLQVjyHQ9fX1GIEC13MMVxBI3gQPaI8CK8e79cskgtBGSjgK7a439mt7MmaLNxyznsKHxlL97tiDqtyOmoFcKgQ2fJ3dG8g0iHoQHxbkqpct-J0hSYxQTWnVhMhGTZy49Jx2j2-JkQgftn218oCQ-Sr677_Mg0jMdIGN0MGeZbFm-bz1QrmvuLqPySOv4UZc5IipO4ZlGmPT-0U0TiaWzCYmqpV_wpsXxOJ9rihAxsHxw8NGspc5ok8=w800-h576-no?authuser=0" data-bp="images/certif/python.jpg" style="border-radius: 8px; overflow: hidden;">
+                    <img class="mb-3" src="images/certif/python.jpg" data-bp="images/certif/python.jpg" style="border-radius: 8px; overflow: hidden;">
                     <figcaption>
                       <h4 class="h5 mb-0"> MTA: Python (2020)</h4>
                     </figcaption>
@@ -373,7 +374,7 @@ div.hidden
               <div class="grid-item">
                 <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
                   <figure class="portfolio-item">
-                    <img class="mb-3" src="https://lh3.googleusercontent.com/yARNvdsUZT10Cqn4Q03T5VmdehWcYHVEAiuMcSFq4Fdg-9I7YC5w8BWTOUovUUkwngAFq8dFO5FiJvlym_eFRU1GbKv8lmcz8ImRfP-QGeqNbaztja6CVBMwZj459mKp5yIevWfaGhL-aAsbeagigaNsbZXl5-CnHrUVbXVw--PHCLo13MYSAZ0OIw-0z1mKfvFvYg5eF39OreZmSLFZZ6-r1ZtxQdsA939djdjLdPsL-b4JRiPtCYf_nwtqIRLLS3zuv4hJtvgmzWCQcCo1dICPR-WmM4GdR3TMrccX69gPFgnuN9hNoBsGRiVMJUuB_nCIjCLqBsSWsykM1HK_Oep2ZqfDGNn2nz7J0lo88GXGw9q4iQaA9DGuuls4i5zPLF-kg4WLA8DvurZiOEoqVueMNtwOP_QOt_zRyWBSNGkHJIDwhNmuNg_AyaWslBq9sHHD8R9a2ezboHnAEsTXnlPteYbxgXdrZbxk7axHw8xgZbwL8ks0CNGGZgvK8JJYTDZ_g4x5iiSAAzFox9X-2_W4j2O1FEkuH7ItowUutMyb3tuZzQZhPF5F6DscM0PPa1ZTzMWWEy-Uz7oWVmTatjs_KH3SA3c4eZ1qLOjRYIKTH0hwDVLFu506DHNC-uDCty2hv54XZwFkahxqLJ_PTgygsrGmaWlHIibrzMeg556p_yvFCurj-ZkcnEAXbvWxW-G88UzUYzGyZOMyX1u02hJYK1L2_500RfRrYPSx_xfwlMAzIjsco0tHcko=w800-h576-no?authuser=0" data-bp="images/certif/javascript.jpg" style="border-radius: 8px; overflow: hidden;">
+                    <img class="mb-3" src="images/certif/javascript.jpg" data-bp="images/certif/javascript.jpg" style="border-radius: 8px; overflow: hidden;">
                     <figcaption>
                       <h4 class="h5 mb-0">MTA: JS (2020)</h4>
                     </figcaption>
@@ -383,7 +384,8 @@ div.hidden
             </div>
           </div>
         </div>
-        <br>
+        
+		<br>
         <br>
         <hr>
         <div class="section px-3 px-lg-4 pt-5" id="experience">
@@ -695,7 +697,7 @@ div.hidden
           <footer class="pt-4 pb-4 text-center bg-light">
             <div class="container">
               <div class="my-3">
-                <div class="h4">Ahmed Trigui </div>
+                <div class="h4">Ahmed TRIGUI </div>
                 <p>Software Developer and Computer Vision Consultant</p>
                 <div class="social-nav">
                   <nav role="navigation">
@@ -738,6 +740,16 @@ div.hidden
 	  <script src="./scripts/limitations.js" defer></script>
 
 </div>
+</div>
+</div>
+
+</div>
+
+
+  </body>
+  
+  
+</html>
 
  <script>
     const div =  document.getElementById('extraControls') ;// Get element from DOM
@@ -745,16 +757,11 @@ div.hidden
 
 
 Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
-    console.log('images finished loading');
 div.classList.remove('hidden');
 div1.classList.remove('loader');
 
 });
 </script>
-  </body>
-  
-  
-</html>
 <script defer>
     var players = document.querySelectorAll('.youtube-player')
 
