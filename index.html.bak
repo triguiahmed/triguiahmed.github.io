@@ -772,5 +772,5 @@
   })();
 </script>
 <!-- End Matomo Code -->
-<script src="./scripts/linkedIn.badge.js" async defer type="text/javascript" defer></script>
+<script src="./scripts/linkedIn.badge.js" type="text/javascript" async defer></script>
  
