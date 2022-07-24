@@ -97,7 +97,6 @@
     </style>
   </head>
   <body id="top">
-    <div id="loader" class="loader"></div>
     <div id="extraControls" class="hidden">
       <header class="bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
@@ -574,8 +573,18 @@
               <div class="text-center mb-5">
                 <h2 class="marker marker-center">Certifications </h2>
               </div>
-			                <div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="150">
-
+			<div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="150">
+                <!-- scrum -->
+                <div class="grid-item">
+                  <a href="https://certiprof.com/" target="_blank">
+                    <figure class="portfolio-item">
+                      <img class="mb-3" src="images/certif/scrum.jpg" data-bp="images/certif/scrum.jpg" style="border-radius: 8px; overflow: hidden;">
+                      <figcaption>
+                        <h4 class="h5 mb-0">Scrum Foundation Professional Certificate (SFPC) - (2022)</h4>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </div>
                 <!-- java -->
                 <div class="grid-item">
                   <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
@@ -587,17 +596,7 @@
                     </figure>
                   </a>
                 </div>
-                <!-- python -->
-                <div class="grid-item">
-                  <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
-                    <figure class="portfolio-item">
-                      <img class="mb-3" src="images/certif/python.jpg" data-bp="images/certif/python.jpg" style="border-radius: 8px; overflow: hidden;">
-                      <figcaption>
-                        <h4 class="h5 mb-0"> MTA: Python (2020)</h4>
-                      </figcaption>
-                    </figure>
-                  </a>
-                </div>
+
                 <!-- js -->
                 <div class="grid-item">
                   <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
@@ -605,6 +604,20 @@
                       <img class="mb-3" src="images/certif/javascript.jpg" data-bp="images/certif/javascript.jpg" style="border-radius: 8px; overflow: hidden;">
                       <figcaption>
                         <h4 class="h5 mb-0">MTA: JS (2020)</h4>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </div>
+              </div>
+			  
+			 <div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="150">
+                <!-- python -->
+                <div class="grid-item">
+                  <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
+                    <figure class="portfolio-item">
+                      <img class="mb-3" src="images/certif/python.jpg" data-bp="images/certif/python.jpg" style="border-radius: 8px; overflow: hidden;">
+                      <figcaption>
+                        <h4 class="h5 mb-0"> MTA: Python (2020)</h4>
                       </figcaption>
                     </figure>
                   </a>
@@ -702,20 +715,13 @@
             </span>
           </a>
         </div>
-        <script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0" defer></script>
-        <script src="./scripts/masonry.pkgd.min.js?ver=1.2.0" defer></script>
-        <script src="./scripts/BigPicture.min.js?ver=1.2.0" defer></script>
-        <script src="./scripts/purecounter.min.js?ver=1.2.0" defer></script>
-        <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0" defer></script>
-        <script src="./scripts/aos.min.js?ver=1.2.0" defer></script>
-        <script src="./scripts/main.js?ver=1.2.0" defer></script>
-        <script src="./scripts/limitations.js" defer></script>
       </div>
     </div>
     </div>
     </div>
-  </body>
-</html>
+  
+      <div id="loader" class="loader"></div>
+	  
 <script>
   const div = document.getElementById('extraControls'); // Get element from DOM
   const div1 = document.getElementById('loader'); // Get element from DOM
@@ -726,6 +732,17 @@
     div1.classList.remove('loader');
   });
 </script>
+
+		<script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0" defer></script>
+        <script src="./scripts/masonry.pkgd.min.js?ver=1.2.0" defer></script>
+        <script src="./scripts/BigPicture.min.js?ver=1.2.0" defer></script>
+        <script src="./scripts/purecounter.min.js?ver=1.2.0" defer></script>
+        <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0" defer></script>
+        <script src="./scripts/aos.min.js?ver=1.2.0" defer></script>
+        <script src="./scripts/main.js?ver=1.2.0" defer></script>
+        <script src="./scripts/limitations.js" defer></script>
+  </body>
+</html>
 <script defer>
   var players = document.querySelectorAll('.youtube-player')
   var loadPlayer = function(event) {
