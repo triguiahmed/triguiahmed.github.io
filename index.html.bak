@@ -266,7 +266,6 @@
 <div class="section px-3 px-lg-4 pt-5" id="services"><div class="container-narrow"><div class="text-center mb-5"><h2 class="marker marker-center">My Services</h2></div><div class="text-center"><p class="mx-auto mb-3" style="max-width:600px"> I offer services fit for any app. I can quickly maximize timely deliverables for real-time schemas.</p></div><div class="row py-3"><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><img class="mb-2" src="images/services/web-design.svg" width="90" height="90" alt="web design"/><div class="h5">Desktop App </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/services/web.jpg" width="90" height="90" alt="app development"/><div class="h5">Responsive Web App </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/services/app-development.svg" width="90" height="90" alt="app development"/><div class="h5">Mobile App </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="200"><img class="mb-2" src="images/services/embedded.svg" width="90" height="90" alt="graphic design"/><div class="h5">Embedded Software  </div></div><div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="300"><img class="mb-2" src="images/services/computer vision.jpg" width="90" height="90" alt="ui-ux"/><div class="h5">AI-Computer Vision</div></div></div></div></div><br><br><br><br><br><br><hr>
  -->
           <div class="section px-3 px-lg-4 pt-5" id="skills">
-		  
 
             <div class="container-narrow">
               <div class="text-center mb-5">
@@ -448,7 +447,7 @@
                     <div class="card-body px-3 py-2">
 					<p>Urban communication project :</p>
 
-                      <p>&#10004; Urban communication.</p>
+                      <p>&#10004; Ads Conception.</p>
                       <p>&#10004; Ads Desing.</p>
                     </div>
                   </div>
