@@ -457,7 +457,7 @@
           </div>
           <br>
  
-          <div class="section px-2 px-lg-4 pt-5" id="portfolio">
+          <div class="section px-3 px-lg-4 pt-5" id="portfolio">
             <div class="container">
               <div class="text-center mb-5">
                 <h2 class="marker marker-center">Projects </h2>
@@ -474,7 +474,7 @@
 			  			  <br>
 			                <div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="150">
 </div>
-              <div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="150">
+              <div class="grid bp-gallery pb-0 mx-auto" data-aos="zoom-in-up" data-aos-delay="150">
                 <!-- Football -->
                 <div class="grid-item ">
                   <figure class="portfolio-item">
