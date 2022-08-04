@@ -401,7 +401,7 @@
                       <p>Developement of a Desktop application :</p>
                       <p> &#10004; Medical stock management:&nbsp;  JavaFx framework/ Scene Builder FXML/ SQLite.</p>
                       <p> &#10004; Real-time Alert system for expired and hors stock drugs.</p>
-                      <p> &#10004; Export drugs list in csv format.</p>
+                      <p> &#10004; Export drugs list to csv format.</p>
 					  <p>&nbsp;</p>
                     </div>
                   </div>
@@ -627,8 +627,14 @@
 			  			  <br>
 			  		                <div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="150">
 </div>
-			<div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="150">
-                <!-- scrum -->
+			<div class="grid bp-gallery pb-0 ">
+				
+			 <div class="grid bp-gallery pb-0 ">
+			 		  <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">
+	  <!-- scrum -->
                 <div class="grid-item">
                   <a href="https://certiprof.com/" target="_blank">
                     <figure class="portfolio-item">
@@ -639,6 +645,12 @@
                     </figure>
                   </a>
                 </div>
+</div>
+		 		  <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">
+	  
                 <!-- java -->
                 <div class="grid-item">
                   <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
@@ -650,8 +662,12 @@
                     </figure>
                   </a>
                 </div>
-
-                <!-- js -->
+</div>
+		 		  <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">
+	       <!-- js -->
                 <div class="grid-item">
                   <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
                     <figure class="portfolio-item">
@@ -662,10 +678,17 @@
                     </figure>
                   </a>
                 </div>
+</div>
+              
+
+          
               </div>
-			  
-			 <div class="grid bp-gallery pb-0 " data-aos="zoom-in-up" data-aos-delay="150">
-                <!-- python -->
+
+		 		  <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">
+	       <!-- python -->
                 <div class="grid-item">
                   <a href="https://www.certiport.com/portal/pages/credentialverification.aspx" target="_blank">
                     <figure class="portfolio-item">
@@ -676,6 +699,8 @@
                     </figure>
                   </a>
                 </div>
+</div>
+          
               </div>
             </div>
           </div>
