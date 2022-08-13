@@ -713,7 +713,9 @@
                     <div class="h5">Let’s talk how I can help you!</div>
                     <p>If you like my work and want to avail my services then drop me a message using the contact form. </p>
                     <p>Or get in touch using my email.</p>
-     <div class="mt-53 px-1">
+                    <p>See you!</p>
+                  </div>
+             <div class="mt-53 px-1">
           <div class="row"> 
             <div class="col-sm-2">
               <div class="pb-1">Email:</div>
@@ -725,9 +727,7 @@
           </div>
 		
         </div>
-                    <p>See you!</p>
-                  </div>
-           
+   
                   </div>
                 </div>
               </div>
