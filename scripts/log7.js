@@ -42,10 +42,7 @@ function wtslog7Exe(alias, db, obj, event_name, event_conversion, event) {
     if (!alias || !db) {
         return;
     }
-    var start = Date.now();
-    var web_url = "www.web-stat.com";
-    var app_url = "app.ardalio.com";
-    var app_name = "Web-Stat";
+
     if (alias != '197785') {
         if (document.readyState === 'loading') {
             if (typeof document.addEventListener === 'function') {
